@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgbtn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvname"
+        android:text="Name"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/imgbtn"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvcontent"
+        android:text="Content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/imgbtn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtvname"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvtag"
+        android:text="Tag"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/imgbtn"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txtvcontent"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/txtvisited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Visited By: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+</RelativeLayout>

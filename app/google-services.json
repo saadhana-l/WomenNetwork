@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766330390450",
+    "firebase_url": "https://womennetwork-31465.firebaseio.com",
+    "project_id": "womennetwork-31465",
+    "storage_bucket": "womennetwork-31465.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766330390450:android:061b4073c746861c5886ab",
+        "android_client_info": {
+          "package_name": "com.example.womennetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766330390450-phqgp9ftu2m3ea5jo9eh05dsivae1cet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAvcF_96IXXJ8U1Wi8xNr9nGNDzwCcmbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766330390450-phqgp9ftu2m3ea5jo9eh05dsivae1cet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

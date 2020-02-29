@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Post">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Name: "
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvname"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:id="@+id/etname"
+        android:layout_toRightOf="@id/tvname"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Phone Number: "
+        android:layout_below="@id/tvname"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvphone"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:id="@+id/etphone"
+        android:layout_below="@id/tvname"
+        android:layout_toRightOf="@id/tvphone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Caption: "
+        android:layout_below="@id/tvphone"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvcaption"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:id="@+id/etcaption"
+        android:layout_below="@id/tvphone"
+        android:layout_toRightOf="@id/tvcaption"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tvcaption"
+        android:text="Description: "
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvcontent"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:minLines="1"
+        android:maxLines="3"
+        android:id="@+id/etcontent"
+        android:layout_below="@id/tvcaption"
+        android:layout_toRightOf="@id/tvcontent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/tvcontent"
+        android:text="Tag: "
+        android:textColor="@color/colorAccent"
+        android:id="@+id/tvtag"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="55dp"
+        android:ems="10"
+        android:id="@+id/ettag"
+        android:layout_below="@id/tvcontent"
+        android:layout_toRightOf="@id/tvtag"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnclick"
+        android:text="Click Image"
+        android:layout_below="@id/ettag"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/btnclick"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsubmit"
+        android:text="Submit"
+        android:layout_below="@id/img"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>
